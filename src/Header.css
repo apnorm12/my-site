@@ -1,0 +1,47 @@
+.Header {
+
+}
+
+.header-title{
+    display: inline-block;
+    float: left;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+
+.nav {
+    display: inline-block;
+    float: left;
+    border-left: solid 1px rgba(160, 160, 160, 0.3);
+    margin-top: 6px;
+    margin-left: 1.5em;
+    /*overflow: hidden;*/
+    /*padding-left: 1.5em;*/
+    vertical-align: middle;
+
+
+}
+
+
+.li {
+    display: inline;
+    border-right: solid 1px rgba(160, 160, 160, 0.3);
+    line-height: 1;
+    margin-right: 1em;
+    padding-right: 1em;
+    vertical-align: middle;
+    font-size: medium;
+}
+
+.li-a {
+    padding: 8px;
+    border-bottom: 0;
+    font-family: "Raleway", Helvetica, sans-serif;
+    font-size: 0.7em;
+    font-weight: 400;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: inherit;
+
+}
