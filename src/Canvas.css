@@ -1,0 +1,17 @@
+.canvas{
+    position: relative;
+    top: 150px;
+    /*border: 1px solid black;*/
+    width: 50%;
+    height: 1000px;
+    float: left;
+    background-color: white;
+    border: 1px solid rgba(160, 160, 160, 0.3);
+
+
+}
+
+.canvas-header {
+    /*border: 1px solid green;*/
+
+}

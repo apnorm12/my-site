@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import Header from './Header.js';
 import './App.css';
+import Sidebar from "./Sidebar";
+import Canvas from './Canvas.js';
 
 class App extends Component {
   render() {
@@ -21,7 +23,15 @@ class App extends Component {
             {/*Learn React*/}
           {/*</a>*/}
         {/*</header>*/}
-        <Header/>
+        <div>
+            <Header/>
+        </div>
+        <div>
+            <Sidebar/>
+        </div>
+        <div>
+            <Canvas/>
+        </div>
       </div>
     );
   }
