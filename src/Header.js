@@ -4,6 +4,15 @@ import './Header.css'
 
 class Header extends React.Component {
 
+    constructor(props) {
+        super(props);
+        this.handleClick = this.handleClick.bind(this);
+    }
+
+    handleClick(test) {
+        this.props.onHeaderClick(test);
+    }
+
     render() {
         return (
             <div className="header">
@@ -13,16 +22,16 @@ class Header extends React.Component {
                 <nav className="nav">
                     <ul>
                         <li className="li">
-                            <a className="li-a" href="/">About Me</a>
+                            <button className="li-button" onClick={(e) => this.handleClick("about")}>About Me</button>
                         </li>
                         <li className="li">
                             <a className="li-a" href="/resume">Resume</a>
                         </li>
                         <li className="li">
-                            <a className="li-a" href="/projects">Projects</a>
+                            <button className="li-button" onClick={(e) => this.handleClick("projects")}>Projects</button>
                         </li>
                         <li className="li">
-                            <a className="li-a" href="/fun-facts">Fun Facts</a>
+                            <button className="li-button" onClick={(e) => this.handleClick("fun facts")}>Fun Facts</button>
                         </li>
                      </ul>
                 </nav>

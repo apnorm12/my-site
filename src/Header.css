@@ -5,6 +5,7 @@
     border-bottom: 1px solid rgba(160, 160, 160, 0.3);
     letter-spacing: 0.25em;
     z-index: 1;
+    color: #3c3b3b;
 }
 
 .header-title{
@@ -12,6 +13,7 @@
     float: left;
     padding-left: 20px;
     vertical-align: middle;
+
 }
 
 .nav {
@@ -48,5 +50,20 @@
     text-transform: uppercase;
     text-decoration: none;
     color: inherit;
+
+}
+
+.li-button {
+    padding: 8px;
+    border: 0;
+    font-family: "Raleway", Helvetica, sans-serif;
+    font-size: 0.7em;
+    font-weight: 400;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: inherit;
+    outline:0;
+    cursor: pointer;
 
 }
