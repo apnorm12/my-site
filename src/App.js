@@ -9,7 +9,7 @@ class App extends Component {
 
     constructor(props) {
         super(props);
-        this.state = {canvasState: "Canvas State"};
+        this.state = {canvasState: "site"};
         this.handleClick = this.handleClick.bind(this);
     }
 
@@ -24,9 +24,6 @@ class App extends Component {
         console.log(this.state.canvasState);
     return (
       <div className="App">
-          <h1>
-              {this.state.canvasState}
-          </h1>
         {/*<header className="App-header">*/}
           {/*<img src={logo} className="App-logo" alt="logo" />*/}
           {/*<p>*/}

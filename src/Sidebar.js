@@ -16,12 +16,31 @@ class Sidebar extends React.Component {
                 </div>
                 <section className="sidebar-blurb">
                     <h4 className="sidebar-blurb-header">
-                        About
+                        About Me
                     </h4>
                     <p className="sidebar-blurb-body">
-                        My name is Aaron and I'm happy!
+                        Hey there, my name is Aaron - welcome to my website!
+                        <br/>
+                        <br/>
+                        I graduated from UC Berkeley College of Engineering in May 2017 and I'm currently a product manager at SAP.
+                        <br/>
+                        <br/>
+                        I'm always open to hearing about new opportunities - feel free to reach out at my email above!
                     </p>
                 </section>
+                {/*<div className="sidebar-footer">*/}
+                    {/*<li className="li">*/}
+                        {/*<a className="li-button" onClick={(e) => this.handleClick("about")}>*/}
+                            {/*<img src=favicon.ico/>*/}
+                        {/*</a>*/}
+                    {/*</li>*/}
+                    {/*<li className="li">*/}
+                        {/*<a className="li-a" href="/resume">LI</a>*/}
+                    {/*</li>*/}
+                    {/*<li className="li">*/}
+                        {/*<a className="li-button" onClick={(e) => this.handleClick("projects")}>Insta</a>*/}
+                    {/*</li>*/}
+                {/*</div>*/}
             </div>
 
         );

@@ -22,16 +22,19 @@ class Header extends React.Component {
                 <nav className="nav">
                     <ul>
                         <li className="li">
-                            <button className="li-button" onClick={(e) => this.handleClick("about")}>About Me</button>
+                            <button className="li-button" onClick={(e) => this.handleClick("about")}>About</button>
                         </li>
-                        <li className="li">
-                            <a className="li-a" href="/resume">Resume</a>
-                        </li>
+                        {/*<li className="li">*/}
+                            {/*<a className="li-a" href="/resume">Resume</a>*/}
+                        {/*</li>*/}
                         <li className="li">
                             <button className="li-button" onClick={(e) => this.handleClick("projects")}>Projects</button>
                         </li>
+                        {/*<li className="li">*/}
+                            {/*<button className="li-button" onClick={(e) => this.handleClick("fun facts")}>Fun Facts</button>*/}
+                        {/*</li>*/}
                         <li className="li">
-                            <button className="li-button" onClick={(e) => this.handleClick("fun facts")}>Fun Facts</button>
+                            <button className="li-button" onClick={(e) => this.handleClick("site")}>Site</button>
                         </li>
                      </ul>
                 </nav>
