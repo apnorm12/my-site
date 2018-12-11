@@ -16,11 +16,13 @@ class Header extends React.Component {
     render() {
         return (
             <div className="header">
-                <h2 className="header-title">
-                    Aaron Prohofsky
-                </h2>
+                <div className="header-title">
+                    <h2>
+                        Aaron Prohofsky
+                    </h2>
+                </div>
                 <nav className="nav">
-                    <ul>
+                    <ul className="ul">
                         <li className="li">
                             <button className="li-button" onClick={(e) => this.handleClick("about")}>About</button>
                         </li>

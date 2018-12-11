@@ -82,6 +82,33 @@ class CanvasProjectSite extends React.Component {
                         I actually reached out to Michael to let him know I was going to follow his design when creating my website
                         and he was super helpful - even offered to have a phone call if I got stuck at any point.
                     </p>
+                    <h3 className="blog-title">
+                        Wrapping Up
+                    </h3>
+                    <p>
+                        This was not an easy process by any means. Overall, it took me about 4 months to complete.
+                        And I am incredibly proud, that despite never having written any HTML code of any sort I built my
+                        own website that I can brag about!
+
+                        Leaving out a lot of the details (like trying to get CSS to work properly)
+
+                        aversion against discomfort.
+
+
+                        <br/>
+                        Lessons Learned:
+                        <br/>- take a break between work (30min -1hr per day)
+                        <br/>- don't go more than a day or two without working on it (really sets you back)
+                        <br/>- have a purpose
+
+
+                        <br/> <br/> There were a few purposes for this site:
+                        To motivate me to keep learning and doing things worth writing about
+                        <br/> To learn web development.
+
+                        Now that I have this site I hope it will encourage me to continue doing side projects -
+                        data analysis, photography, articles, poker, food, etc
+                    </p>
                 </article>
             </div>
         );

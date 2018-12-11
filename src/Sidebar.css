@@ -1,10 +1,14 @@
 .sidebar {
     /*display: block;*/
-    display: inline;
-    margin-right: 3em;
-    min-width: 22em;
-    width: 26em;
-    float: left;
+
+    float:left;
+    width: 30%;
+    max-width: 500px;
+    /*display: inline;*/
+    /*margin-right: 3em;*/
+    /*min-width: 22em;*/
+    /*width: 26em;*/
+    /*float: left;*/
     position: relative;
     top: 100px;
     text-transform: uppercase;

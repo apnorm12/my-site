@@ -15,14 +15,15 @@ class Canvas extends React.Component {
                             About this site
                         </h2>
                         <p className="canvas-body">
-                            Welcome to my site! I built it as a side project to teach myself React.
-                            <br/> As a bonus, now I have a site to call home where I can discuss whatever I want: cool projects I work on, random articles I've read, etc.
-                            <br/> To read more about my process I went through from having zero knowledge of javascript of frontend coding to deploying a real website click on the Projects tab!
-                            <br/> <br/> Styling is based
-                            <br/> <br/> There were a few purposes for this site:
-                            To motivate me to keep learning and doing things worth writing about
-                            <br/> To learn web development.
+                            Welcome to my site! I built it as a side project to teach myself web development using React.
+                            <br/><br/>
+                            My site is still a work in progress - I am working on refining the design and adding content!
+                            I am extremely proud of what I've built as I set out with a goal of creating my own website without any knowledge of web development.
+                            In fact, before creating this site the extent of my knowledge of HTML was that it stood for hyper text markup language.
 
+                            <br/> <br/>
+                            I documented my learning experience to give some advice for anyone who has a goal in mind but no idea where to start.
+                            Check it out in the Projects tab!
 
                         </p>
 

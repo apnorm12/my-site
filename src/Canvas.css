@@ -39,6 +39,7 @@
     padding-right: 3em;
     color: #5f5e5e;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 16px;
     line-height: 1.5;
 
 }
@@ -53,9 +54,10 @@
 
 .blog {
     color: green;
-    text-align: left;
-    margin-left: 3em;
-    margin-right: 3em;
+    text-align: justify;
+    margin-left: 5em;
+    margin-right: 5em;
+    font-size: large;
 
 }
 
