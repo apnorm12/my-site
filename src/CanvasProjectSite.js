@@ -97,9 +97,11 @@ class CanvasProjectSite extends React.Component {
 
                         <br/>
                         Lessons Learned:
+                        <br/>- figure out how you learn best - don't be afraid to "waste" time trying different learning methods
                         <br/>- take a break between work (30min -1hr per day)
                         <br/>- don't go more than a day or two without working on it (really sets you back)
                         <br/>- have a purpose
+
 
 
                         <br/> <br/> There were a few purposes for this site:
