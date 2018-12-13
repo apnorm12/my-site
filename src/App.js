@@ -4,6 +4,7 @@ import Header from './Header.js';
 import './App.css';
 import Sidebar from "./Sidebar";
 import Canvas from './Canvas.js';
+import Main from './Main.js';
 
 class App extends Component {
 
@@ -41,15 +42,14 @@ class App extends Component {
         <div>
             <Header onHeaderClick={this.handleClick}/>
         </div>
+
         <div>
-            <Sidebar/>
-        </div>
-        <div>
-            <Canvas canvasState={this.state.canvasState}/>
+            <Main/>
         </div>
       </div>
     );
   }
 }
+
 
 export default App;

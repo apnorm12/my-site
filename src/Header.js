@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css'
+import './Header.css';
 
 
 class Header extends React.Component {
@@ -12,6 +12,8 @@ class Header extends React.Component {
     handleClick(test) {
         this.props.onHeaderClick(test);
     }
+
+
 
     render() {
         return (

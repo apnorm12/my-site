@@ -6,7 +6,17 @@ import Test from'./Test';
 import Header from './Header';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import { BrowserRouter } from 'react-router-dom';
+
+// ReactDOM.render(<App />, document.getElementById('root'));
+
+ReactDOM.render((
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>
+), document.getElementById('root'));
 
 
 serviceWorker.unregister();
+
+
