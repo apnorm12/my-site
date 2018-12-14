@@ -51,11 +51,11 @@ class CanvasProjectSite extends React.Component {
                         and I’m very proud of the end product after a few months of learning and building.
                     </p>
                     <p>
-                        This post is not about the technical implementation (for that you can see my source code here),
+                        This post does not focus on the technical implementation (but you can find my source code HEREHERE),
                         but rather the process that I went through. I think it's important to reflect on what I learned and
-                        how I went about learning especially for a project as open ended as this - one with zero guidance and
-                        requires a lot of self-discipline when coming home after a long day of work. Hopefully by reading this
-                        I can provide enough guidance and inspire you tackle that project you’ve been wanting to do but feel like you
+                        how I went about learning, especially for a project as open ended as this - one in which I had zero guidance and
+                        exerted a lot of self-discipline to complete when coming home after a long day of work. Hopefully by reading this
+                        I can provide enough guidance and inspire you to tackle that project you’ve been wanting to do but feel like you
                         “don’t have the time” or “don’t know where to start”.
                     </p>
 
@@ -76,7 +76,7 @@ class CanvasProjectSite extends React.Component {
                             my career. (Next up, either a design project or data analytics project)</li>
                     </ol>
                     <p>
-                        3 months later I’ve accomplished all of them! Let me walk you through how!
+                        Three months later I’ve accomplished all of them! Let me walk you through how!
                     </p>
 
                     <h2 className="blog-title">
@@ -107,49 +107,88 @@ class CanvasProjectSite extends React.Component {
                         Learn the Fundamentals
                     </h3>
                     <p>
-                        My next step was to understand the fundamentals of the code I was writing. I read through the documentation
-                        for React, Node, Express, HTML, and CSS. From there I returned to the video tutorial that I started and it was amazing
-                        how much more I understood what my code was doing! From there, I thought it was time to put my skills to the test,
+                        The next decision I made was to take a step back and learn the fundamentals of the code I was writing. I read through the documentation
+                        for React, Node, Express, HTML, and CSS. When I returned to the video tutorial that I started, it was amazing
+                        how much more I understood about what my code was doing! From there, I knew it was time to put my skills to the test,
                         but as I thought about actually creating this website, I realized I didn't have any direction.
                         I started looking at some React boilerplates that I could build off of and I had an internal dilemma about
-                        whether I wanted to build my site from scratch (using create-react-app) or from a boilerplate. As any good
-                        product manager would, I started to think about my goals were and who my target audience was.
+                        whether I wanted to build my site from scratch (using create-react-app) or from a boilerplate. Until this point, I
+                        didn't really have goals in mind other than the broad idea that I wanted a website. As any good
+                        product manager would, I started to think about what my goals were and who my target audience was.
                     </p>
                     <h3 className="blog-title">
-                        Start Building!
+                        Build!
                     </h3>
                     <p>
-                        After establishing my goals - one of which was to teach myself React and understand web development -
-                        I opted for the seemingly scarier path of starting my site from scratch. I browsed some personal websites online
-                        and found a nice simple design (https://mldangelo.com/) that I could base mine off of and still make it my own.
-                        I actually reached out to Michael to let him know I was going to follow his design when creating my website
-                        and he was super helpful - even offered to have a phone call if I got stuck at any point.
+                        After establishing my goals, I opted for the seemingly scarier path of starting my site from scratch.
+                        I browsed some personal websites online and found a nice simple design (https://mldangelo.com/)
+                        that I could base mine off of and still make it my own. Keep in mind, none of my goals were focused on learning design.
+                        Learning web development is hard enough as it is, I didn't want the additional challenge and stress of
+                        coming up with my own designs (although that is on the list of future projects!). I actually reached
+                        out to Michael to let him know I was going to follow his design when creating my website. He was super helpful
+                        and even offered to have a phone call if I got stuck at any point.
                     </p>
                     <h3 className="blog-title">
                         Wrapping Up
                     </h3>
                     <p>
-                        This was not an easy process by any means. Overall, it took me about 4 months to complete.
-                        And I am incredibly proud, that despite never having written any HTML code of any sort I built my
-                        own website that I can brag about!
+                        This was not an easy process by any means. Overall, it took me about 4 months to complete (from the
+                        initial idea of wanting to build a website). I know an experienced developer could have built what I built
+                        in much less time. But that doesn't matter, I shouldn't be comparing myself to an experienced developer.
+                        I am incredibly proud, that starting from square one, I built my own website! In the "Process" section of this article,
+                        I really focus on the major turning points, and do not go into much detail. However,
+                        As I mentioned earlier, there were many times I got frustrating and even days in a row where it felt
+                        as though I got nothing done. It was important for me to keep in mind that even if nothing tangible was completed,
+                        if I sat down for a solid 30 minutes and thought and learned that I was productive - that's just part of the learning process!
 
-                        Leaving out a lot of the details (like trying to get CSS to work properly)
+                    </p>
 
-                        aversion against discomfort.
+                    <h2 className="blog-title">
+                        Lessons Learned
+                    </h2>
+                    <p>
 
+                        I experienced first-hand, the human brain's aversion to discomfort over the last 4 months.
+                        (Not that I didn't challenge myself at UC Berkeley, but it's different when there's no external
+                        pressure or guidance!)
+                        Whatever future project I decide to embark on next these are some lessons learned that I will
+                        keep in mind the next time around!
 
-                        <br/>
-                        Lessons Learned:
-                        <br/>- figure out how you learn best - don't be afraid to "waste" time trying different learning methods
-                        <br/>- take a break between work (30min -1hr per day)
-                        <br/>- don't go more than a day or two without working on it (really sets you back)
-                        <br/>- have a purpose
-                        <br/> - dont take a shortcut - learn the fundamentals
+                        {/*Now that I have this site I hope it will encourage me to continue doing side projects.*/}
+                        {/*data analysis, photography, articles, poker, food, etc.*/}
 
-
-
-                        Now that I have this site I hope it will encourage me to continue doing side projects -
-                        data analysis, photography, articles, poker, food, etc
+                        <ul>
+                            <li>
+                                <div className="blog-lesson"> Have a goal </div>
+                                Without a goal, you lack direction, only making your learning process less efficient and harder than it has to be.
+                            </li> <br/>
+                            <li>
+                                <div className="blog-lesson"> Stay consistent </div>
+                                At the start, I would go in waves of every other week I would work and then not work. Every time
+                                I jumped back in I had to relearn what I had just done a week ago!
+                                Make a serious effort not to go more than two days without working on your project. My solution
+                                was to add a timeslot in my calendar every M-Th dedicated to "Delibrate Learning".
+                            </li> <br/>
+                            <li>
+                                <div className="blog-lesson"> Take a break </div>
+                                It's mentally exhausting to do a side project on top of your normal day job.
+                                Make sure you have some time to reset. For me, I set aside 1 hr every M-Th from 8:30pm-9:30pm
+                                so that I had some time to relax after work and between learning and going to sleep.
+                            </li> <br/>
+                            <li>
+                                <div className="blog-lesson"> Don't take shortcuts </div>
+                                Looking back on it, I definitely had some inefficient use of time because I tried to take shortcuts
+                                before learning the fundamentals. It may seem quicker to just jump in before taking the time to understand
+                                the details (and there is definitely a middle ground of how much detail you need to understand) but in
+                                general learning the fundamentals from the start will be a larger upfront cost that will certainly pay off down the
+                                road.
+                            </li> <br/>
+                            <li>
+                                <div className="blog-lesson"> Figure out how you learn best </div>
+                                A lot of my time I spent figuring out the best way for me to learn - videos are better than articles for me.
+                                Don't be afraid to "waste" time trying different learning methods, it's part of the process!
+                            </li>
+                        </ul>
                     </p>
                 </article>
             </div>
