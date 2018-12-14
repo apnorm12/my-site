@@ -187,6 +187,13 @@ class CanvasProjectSite extends React.Component {
                                 <div className="blog-lesson"> Figure out how you learn best </div>
                                 A lot of my time I spent figuring out the best way for me to learn - videos are better than articles for me.
                                 Don't be afraid to "waste" time trying different learning methods, it's part of the process!
+                            </li> <br/>
+                            <li>
+                                <div className="blog-lesson"> Reflect </div>
+                                By writing this post I'm doing myself a huge favor of actually processing the information that I learned.
+                                This was an additional challenge to myself since I do not write often. But, now that I've completed this post
+                                I feel that it will help me really internalize what I've done and retain the knowledge that I've gained
+                                (both in project efficiency and the knowledge of web development)!
                             </li>
                         </ul>
                     </p>
