@@ -1,12 +1,13 @@
 import React from 'react';
+import './Sidebar.css';
 
 class Test extends React.Component {
 
     render() {
         return (
-            <div>
+            <h1 className="sidebar">
                 Hello World
-            </div>
+            </h1>
         );
     }
 

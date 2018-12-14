@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import Header from './Header.js';
 import './App.css';
 import Sidebar from "./Sidebar";
-import Canvas from './Canvas.js';
+import Canvas from './canvas/Canvas.js';
 import Main from './Main.js';
 
 class App extends Component {

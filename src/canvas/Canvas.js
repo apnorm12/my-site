@@ -1,6 +1,6 @@
 import React from 'react';
 import './Canvas.css';
-import Image from './images/favicon.ico';
+import Image from '../images/favicon.ico';
 import CanvasProjectSite from './CanvasProjectSite';
 
 class Canvas extends React.Component {
