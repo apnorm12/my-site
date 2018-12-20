@@ -18,8 +18,8 @@ class App extends Component {
     handleClick(page) {
         console.log(page);
         this.setState({canvasState: page});
-
     }
+
 
   render() {
 
@@ -46,7 +46,7 @@ class App extends Component {
 
         <div>
             <Sidebar/>
-            <Canvas canvasState={this.state.canvasState}/>
+            <Canvas canvasState={this.state.canvasState} onCanvasClick={this.handleClick}/>
         </div>
 
       </div>

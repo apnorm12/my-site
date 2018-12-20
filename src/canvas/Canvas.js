@@ -3,8 +3,21 @@ import './Canvas.css';
 import Image from '../images/favicon.ico';
 import CanvasProjectSite from './CanvasProjectSite';
 import CanvasAbout from "./CanvasAbout";
+import CanvasProjects from "./CanvasProjects";
 
 class Canvas extends React.Component {
+
+
+    constructor(props) {
+        super(props);
+        this.handleClick = this.handleClick.bind(this);
+        console.log(this.state);
+    }
+
+    handleClick(test) {
+        console.log(test);
+        this.props.onCanvasClick(test);
+    }
 
     render() {
 
@@ -18,19 +31,7 @@ class Canvas extends React.Component {
 
             case "projects":
                 return (
-                    <div className="canvas">
-                        <h2 className="canvas-header">
-                            Projects
-                        </h2>
-                        <table>
-                            <tr className="canvas-table-row">
-                                <td width="70%"> My Site</td>e
-                            </tr>
-                        </table>
-
-                    </div>
-
-
+                        <CanvasProjects onCanvasProjectsClick={this.handleClick}/>
                 );
 
                 break;
@@ -46,20 +47,6 @@ class Canvas extends React.Component {
 
                 break;
 
-            case "Canvas State":
-                return (
-                    <div className="canvas">
-                        <h2 className="canvas-header">
-                            Hello World
-                        </h2>
-                        <h1>
-                            About
-                        </h1>
-                        <p>
-                            I am a data driven PM! <br/> Go Bears! <br/> {this.props.canvasState}
-                        </p>
-                    </div>
-                );
 
             case "site":
                 return (

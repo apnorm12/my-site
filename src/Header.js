@@ -38,10 +38,10 @@ class Header extends React.Component {
                         {/*<li className="li">*/}
                             {/*<button className="li-button" onClick={(e) => this.handleClick("fun facts")}>Fun Facts</button>*/}
                         {/*</li>*/}
-                        <li className="li">
-                            {/*<Link className="li-button" to='/projects/site'>Site</Link>*/}
-                            <button className="li-button" onClick={(e) => this.handleClick("site")}>Site</button>
-                        </li>
+                        {/*<li className="li">*/}
+                            {/*/!*<Link className="li-button" to='/projects/site'>Site</Link>*!/*/}
+                            {/*<button className="li-button" onClick={(e) => this.handleClick("site")}>Site</button>*/}
+                        {/*</li>*/}
                      </ul>
                 </nav>
             </div>
