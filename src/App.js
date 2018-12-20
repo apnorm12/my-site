@@ -46,7 +46,7 @@ class App extends Component {
 
         <div>
             <Sidebar/>
-            <Canvas onHeaderClick={this.handleClick}/>
+            <Canvas canvasState={this.state.canvasState}/>
         </div>
 
       </div>
