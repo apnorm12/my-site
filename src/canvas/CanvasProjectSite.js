@@ -146,7 +146,7 @@ class CanvasProjectSite extends React.Component {
                     <h2 className="blog-title">
                         Lessons Learned
                     </h2>
-                    <p>
+                    <div>
 
                         I experienced first-hand, the human brain's aversion to discomfort over the last 4 months.
                         (Not that I didn't challenge myself at UC Berkeley, but it's different when there's no external
@@ -196,7 +196,7 @@ class CanvasProjectSite extends React.Component {
                                 (both in project efficiency and the knowledge of web development)!
                             </li>
                         </ul>
-                    </p>
+                    </div>
                 </article>
             </div>
         );

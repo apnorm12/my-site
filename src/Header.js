@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 
 class Header extends React.Component {
 
-    // constructor(props) {
-    //     super(props);
-    //     this.handleClick = this.handleClick.bind(this);
-    // }
-    //
-    // handleClick(test) {
-    //     this.props.onHeaderClick(test);
-    // }
+    constructor(props) {
+        super(props);
+        this.handleClick = this.handleClick.bind(this);
+    }
+
+    handleClick(test) {
+        this.props.onHeaderClick(test);
+    }
 
 
     render() {
@@ -25,23 +25,23 @@ class Header extends React.Component {
                 <nav className="nav">
                     <ul className="ul">
                         <li className="li">
-                            <Link className="li-button" to='/about'>About</Link>
-                            {/*<button className="li-button" onClick={(e) => this.handleClick("about")}>About</button>*/}
+                            {/*<Link className="li-button" to='/about'>About</Link>*/}
+                            <button className="li-button" onClick={(e) => this.handleClick("about")}>About</button>
                         </li>
                         {/*<li className="li">*/}
                             {/*<a className="li-a" href="/resume">Resume</a>*/}
                         {/*</li>*/}
                         <li className="li">
-                            <Link className="li-button" to='/projects'>Projects</Link>
-                            {/*<button className="li-button" onClick={(e) => this.handleClick("projects")}>Projects</button>*/}
+                            {/*<Link className="li-button" to='/projects'>Projects</Link>*/}
+                            <button className="li-button" onClick={(e) => this.handleClick("projects")}>Projects</button>
                         </li>
                         {/*<li className="li">*/}
                             {/*<button className="li-button" onClick={(e) => this.handleClick("fun facts")}>Fun Facts</button>*/}
                         {/*</li>*/}
-                        <li className="li">
-                            <Link className="li-button" to='/projects/site'>Site</Link>
+                        {/*<li className="li">*/}
+                            {/*/!*<Link className="li-button" to='/projects/site'>Site</Link>*!/*/}
                             {/*<button className="li-button" onClick={(e) => this.handleClick("site")}>Site</button>*/}
-                        </li>
+                        {/*</li>*/}
                      </ul>
                 </nav>
             </div>
