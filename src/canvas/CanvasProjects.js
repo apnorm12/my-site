@@ -8,11 +8,17 @@ class CanvasProjects extends React.Component {
                 <h2 className="canvas-header">
                     Projects
                 </h2>
-                <table>
-                    <tr className="canvas-table-row">
-                        <td width="70%"> My Site</td>
+                <table className="canvas-table-row">
+                    <tr>
+                        <td>
+                            <a className="canvas-link" href="/projects/site">My Site</a>
+                        </td>
                     </tr>
                 </table>
+
+                <p>
+                    Stay tuned for more!
+                </p>
 
             </div>
 

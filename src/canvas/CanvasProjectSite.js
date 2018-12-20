@@ -51,7 +51,7 @@ class CanvasProjectSite extends React.Component {
                         and I’m very proud of the end product after a few months of learning and building.
                     </p>
                     <p>
-                        This post does not focus on the technical implementation (but you can find my source code HEREHERE),
+                        This post does not focus on the technical implementation (but you can find my source code <a className="canvas-link" href="https://github.com/apnorm12/my-site"> here</a>),
                         but rather the process that I went through. I think it's important to reflect on what I learned and
                         how I went about learning, especially for a project as open ended as this - one in which I had zero guidance and
                         exerted a lot of self-discipline to complete when coming home after a long day of work. Hopefully by reading this
@@ -121,7 +121,7 @@ class CanvasProjectSite extends React.Component {
                     </h3>
                     <p>
                         After establishing my goals, I opted for the seemingly scarier path of starting my site from scratch.
-                        I browsed some personal websites online and found a nice simple design (https://mldangelo.com/)
+                        I browsed some personal websites online and found a nice simple <a className="canvas-link" href="https://mldangelo.com/"> design </a>
                         that I could base mine off of and still make it my own. Keep in mind, none of my goals were focused on learning design.
                         Learning web development is hard enough as it is, I didn't want the additional challenge and stress of
                         coming up with my own designs (although that is on the list of future projects!). I actually reached
