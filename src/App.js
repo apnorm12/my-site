@@ -5,12 +5,13 @@ import './App.css';
 import Sidebar from "./Sidebar";
 import Canvas from './canvas/Canvas.js';
 import Main from './Main.js';
+import CanvasAbout from "./canvas/CanvasAbout";
 
 class App extends Component {
 
     constructor(props) {
         super(props);
-        this.state = {canvasState: "site"};
+        this.state = {canvasState: "about"};
         this.handleClick = this.handleClick.bind(this);
     }
 
@@ -44,8 +45,10 @@ class App extends Component {
         </div>
 
         <div>
-            <Main/>
+            <Sidebar/>
+            <Canvas onHeaderClick={this.handleClick}/>
         </div>
+
       </div>
     );
   }
